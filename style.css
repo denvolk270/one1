@@ -1,0 +1,143 @@
+body{
+	color: white;
+	background-color: black;
+	font-family: Arial;
+}
+#header{
+	background-color: black;
+	height: 90px;
+	display: flex;
+	justify-content: space-between;
+	margin-left: 100px;
+	margin-right: 100px;
+
+}
+#header ul{
+	margin-top: -2px;
+}
+#header li{
+	list-style-type: none;
+	display: inline-block;
+	padding-left: 120px;
+	padding-top: 35px;
+}
+#header li:hover{
+	color: #FF4060;
+}
+#header svg{
+	width: 20px;
+	height: 20px;
+	padding-top: 30px;
+	margin-left: -400px;
+}
+ svg:hover{
+	fill: #FF4060;
+}
+#main{
+	display: flex;
+	justify-content: space-between;
+	margin-left: 200px;
+	margin-right: 200px;
+}
+#title h1{
+	font-size: 55px;
+}
+#title{
+	padding-top: 100px;
+}
+#title input{
+	width: 210px;
+	height: 50px;
+	color: white;
+	background-color: transparent;
+	border-color: #FF4060;
+	border-radius: 5px;
+}
+#title input:hover{
+	background-color: #FF4060;
+	border-color: white;
+	transition: 0.3s;
+
+}
+#content{
+	display: flex;
+	justify-content: space-between;
+
+}
+#b1{
+	width: 400px;
+	height: 400px;
+	background-color: #313131;
+	border-radius: 5px;
+    padding-left: 50px;
+    padding-top: 20px;
+    margin-left: 180px;
+
+}
+#b2{
+	width: 400px;
+	height: 400px;
+	background-color: #313131;
+	border-radius: 5px;
+    padding-left: 50px;
+    padding-top: 20px
+	
+}
+#b3{
+	width: 400px;
+	height: 400px;
+	background-color: #313131;
+	border-radius: 5px;
+    padding-left: 50px;
+    padding-top: 20px;
+    margin-right: 180px;
+	
+}
+#b1 p{
+	width: 300px;
+
+}
+#b2 p{
+	width: 300px;
+
+}
+#b3 p{
+	width: 300px;
+
+}
+#b1 img{
+	width: 15%;
+	padding-bottom: 20px;
+	padding-top: 20px;
+	padding-left: 10px;
+
+}
+#b2 img{
+	width: 15%;
+	padding-bottom: 20px;
+	padding-top: 20px;
+	padding-left: 10px;
+
+}
+#b3 img{
+	width: 15%;
+	padding-bottom: 20px;
+	padding-top: 20px;
+	padding-left: 10px;
+
+}
+#b1:hover{
+	background-color: #FF4060;
+	transition: 0.3s;
+
+}
+#b2:hover{
+	background-color: #FF4060;
+	transition: 0.3s;
+	
+}
+#b3:hover{
+	background-color: #FF4060;
+	transition: 0.3s;
+	
+}
